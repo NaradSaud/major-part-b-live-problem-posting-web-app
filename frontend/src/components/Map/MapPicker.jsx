@@ -13,7 +13,7 @@ const centerDefault = {
 
 const MapPicker = ({ location, setLocation }) => {
   const { isLoaded } = useJsApiLoader({
-    googleMapsApiKey: 'YOUR_GOOGLE_MAPS_API_KEY' // Replace with your API key
+    googleMapsApiKey: 'GOOGLE MAP API KEY' // google map api
   });
 
   const onMapClick = useCallback(
